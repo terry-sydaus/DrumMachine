@@ -1,0 +1,22 @@
+/* Header.css */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px; */
+  /* border-bottom: solid 1px grey; */
+}
+
+header h1 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.3rem; /* use 2 rem when above ~ 800px wide with media query */
+  text-align: center; /* remove center alignment for larger screen */
+}
+
+@media only screen and (min-width: 53em) {
+  header h1 {
+    font-size: 2rem;
+    /* text-align: left; */
+  }
+}
